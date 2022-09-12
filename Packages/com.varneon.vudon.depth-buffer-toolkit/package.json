@@ -1,0 +1,18 @@
+{
+  "name": "com.varneon.vudon.depth-buffer-toolkit",
+  "version": "0.1.0",
+  "displayName": "VUdon - Depth Buffer Toolkit",
+  "description": "A toolkit for configuring the depth buffer in VRChat worlds with Udon",
+  "unity": "2019.4",
+  "unityRelease": "31f1",
+  "author": {
+    "name": "Varneon",
+    "url": "https://github.com/Varneon"
+  },
+  "dependencies": {
+    "com.vrchat.udonsharp": "1.0.1"
+  },
+  "vpmDependencies": {
+    "com.vrchat.udonsharp": "1.x.x"
+  }
+}

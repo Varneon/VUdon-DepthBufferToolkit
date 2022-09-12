@@ -1,0 +1,23 @@
+{
+    "name": "Varneon.VUdon.DepthBufferToolkit.Editor",
+    "references": [
+        "Varneon.VUdon.DepthBufferToolkit.Runtime",
+        "UdonSharp.Runtime",
+        "Unity.Postprocessing.Runtime",
+        "VRC.Udon",
+        "UdonSharp.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UDONSHARP"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
