@@ -6,6 +6,21 @@
 
 A toolkit for configuring the depth buffer in VRChat worlds with Udon
 
+# Usage
+
+> 1. Navigate to `Varneon` > `VUdon` > `DepthBufferToolkit` > `Add Runtime Activator To Scene`
+>
+> ![image](https://user-images.githubusercontent.com/26690821/190958151-d3d08127-9002-4039-a46a-2f56f3394491.png)
+
+> 2. Click `Add all cameras from the current scene` and `Add all mirrors from the current scene` depending on which ones you want to enable the depth buffer on
+>
+> ![image](https://user-images.githubusercontent.com/26690821/190958569-81ec4936-a51d-4b8c-862e-706aed819e20.png)
+
+> 3. Depth Buffer Activator will now activate the depth buffer on the objects using the following methods:
+> * `Main Camera`: Temporary Post-process Volume with DoF on the first frame
+> * `Other Cameras`: Directly set the DepthTextureMode property of the camera to Depth
+> * `Mirrors`: Attach MirrorDepthBufferActivator component during build, which finds the internal camera of the mirror when it's rendered for the first frame, then set the DepthTextureMode property of the internal camera to Depth
+
 # Installation
 
 <details><summary>
