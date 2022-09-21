@@ -61,7 +61,7 @@ namespace Varneon.VUdon.DepthBufferToolkit.Editor
 
             GUILayout.Space(20);
 
-            EditorGUILayout.HelpBox("Add all cameras to the array above that you want to have depth buffer activated on", MessageType.Info, true);
+            EditorGUILayout.HelpBox("Add all cameras and mirrors to the arrays above to activate the depth buffer rendering on them", MessageType.Info, true);
 
             if (GUILayout.Button("Add all cameras from the current scene"))
             {
